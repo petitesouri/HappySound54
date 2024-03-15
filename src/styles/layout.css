@@ -1,4 +1,4 @@
-@import 'variables.css';
+/* @import 'variables.css'; */
 
 /* Index */
 .Intro h2{
@@ -59,7 +59,10 @@
     transform: translateX(-50%);
   } */
   
-body.background1, body.background2, body.background3 {
+body.background1, 
+body.background2, 
+body.background3, 
+body.background4 {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -73,6 +76,15 @@ body.background2 {
 body.background3 {
   background-image: url('../assets/images/image3.jpg');
 }
+/* body.background4 {
+  background-image: url('../assets/images/image4.jpg');
+}
+body.background5 {
+  background-image: url('../assets/images/image5.png');
+}
+body.background6 {
+  background-image: url('../assets/images/image6.jpg');
+} */
   /* 
   .ambiance-text {
     color: var(--color-yellow);

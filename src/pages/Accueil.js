@@ -12,6 +12,7 @@ import Modal from "../components/Modal";
 function Accueil({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   const [modalType, setModalType] = useState('');
+
   // const [posts, setPosts] = useState([]);
 
   // useEffect(() => {
@@ -25,30 +26,6 @@ function Accueil({ children }) {
   //       }
   //     );
   //   }
-  // }, []);
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const sections = document.querySelectorAll('section');
-  //     const body = document.querySelector('body');
-  //     const windowHeight = window.innerHeight;
-      
-  //     sections.forEach(section => {
-  //       const sectionRect = section.getBoundingClientRect();
-  //       const sectionMiddle = sectionRect.top + sectionRect.height / 2;
-  //       const newClassName = section.getAttribute('data-classname');
-
-  //       if (sectionMiddle <= windowHeight / 2) {
-  //         body.className = newClassName || '';  
-  //       }
-  //     });
-  //   };
-
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
   // }, []);
 
   window.addEventListener('scroll', function() {

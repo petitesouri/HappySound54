@@ -4,10 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 import "./styles/main.css";
+import Page from "./pages/Page"
 import Accueil from "./pages/Accueil";
-import Mariage from "./pages/Mariage";
-import Soirees from "./pages/Soirees";
-import Evenement from "./pages/Evenement";
 import Erreur from "./pages/Erreur";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -19,9 +17,7 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Accueil />}/>
-        <Route path="/mariage" element={<Mariage />} />
-        <Route path='/soirees' element={<Soirees />} />
-        <Route path='/evenement' element={<Evenement />} />
+        <Route path="/:type" element={<Page />} />
         <Route path="*" element={<Erreur />} />
       </Routes>
       <Footer />

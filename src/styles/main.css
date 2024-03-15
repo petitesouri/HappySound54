@@ -51,3 +51,6 @@ section {
     background-color: var(--color-grey);
     position: relative;
 }
+button:hover {
+    transform: scale(1.05);
+}

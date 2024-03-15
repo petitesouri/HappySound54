@@ -11,24 +11,23 @@ header {
     top: 0;
     z-index: 50;
 }
-/* .header-link {
+.header-link {
     display: flex;
 }
 .header-link__logo {
     width: 233px;
-} */
+}
 .header-nav {
     display: flex;
     justify-content: flex-start;
     gap: 100px;
 }
-
 .header-nav__link {
     display: flex;
     justify-content: flex-end;
     gap: 100px;
 }
-/* .header-nav__link-button,
+.header-nav__link-button,
 .header-nav__link-button a, 
 .header-nav__link-button a img {
     width: var(--width-header-buttons);
@@ -46,8 +45,8 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-} */
-/* button {
+}
+button {
     font-family: var(--font-family-primary);
     font-size: 24px;
     font-weight: 600;
@@ -58,12 +57,9 @@ header {
     border: 2px solid var(--color-yellow);
     border-radius: 10px;
     transition: transform 0.3s ease;
-} */
+}
 
 /* Animations */
-/* .header-nav__link-button:hover {
+.header-nav__link-button:hover {
     transform: rotate(180deg);
 }
-button:hover {
-    transform: scale(1.05);
-} */

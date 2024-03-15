@@ -63,11 +63,11 @@ const Header = () => {
                 <img className="header-link__logo" src={Logo} alt="Logo Happy Sound 54" />
             </Link>
             <nav className="header-nav">
-                {/* <li className={isHomePage ? 'header-nav__link-button active' : 'header-nav__link-button'}>
+                <li className={isHomePage ? 'header-nav__link-button active' : 'header-nav__link-button'}>
                     <Link to={samplePageLinks[0].url}>
                     <img src={samplePageLinks[0].src} alt={samplePageLinks[0].description} />
                     </Link>
-                </li> */}
+                </li>
                 <div className="header-nav__link">
                     {samplePageLinks.slice(1).map((link, i) => (
                     <li key={link.url} className="header-nav__link-button">
