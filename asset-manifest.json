@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HappySound54/static/css/main.5c23cdc1.css",
-    "main.js": "/HappySound54/static/js/main.9c64a1eb.js",
+    "main.css": "/HappySound54/static/css/main.5bd316c3.css",
+    "main.js": "/HappySound54/static/js/main.bd029154.js",
     "static/js/453.a06b6a0e.chunk.js": "/HappySound54/static/js/453.a06b6a0e.chunk.js",
     "static/media/image6.jpg": "/HappySound54/static/media/image6.f3d2d9878a0075dda3a9.jpg",
     "static/media/image5.png": "/HappySound54/static/media/image5.04f441832e403b956682.png",
@@ -17,12 +17,12 @@
     "static/media/Logo-HS54.png": "/HappySound54/static/media/Logo-HS54.8d029ecad62a62e35f83.png",
     "static/media/Logo-OWD.webp": "/HappySound54/static/media/Logo-OWD.1284ed555e463d0156f6.webp",
     "index.html": "/HappySound54/index.html",
-    "main.5c23cdc1.css.map": "/HappySound54/static/css/main.5c23cdc1.css.map",
-    "main.9c64a1eb.js.map": "/HappySound54/static/js/main.9c64a1eb.js.map",
+    "main.5bd316c3.css.map": "/HappySound54/static/css/main.5bd316c3.css.map",
+    "main.bd029154.js.map": "/HappySound54/static/js/main.bd029154.js.map",
     "453.a06b6a0e.chunk.js.map": "/HappySound54/static/js/453.a06b6a0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c23cdc1.css",
-    "static/js/main.9c64a1eb.js"
+    "static/css/main.5bd316c3.css",
+    "static/js/main.bd029154.js"
   ]
 }
