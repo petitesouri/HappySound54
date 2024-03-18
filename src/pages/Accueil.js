@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+// import { useLocation } from "react-router-dom";
 
 import Section from "../components/Section";
 import Headband from "../components/Headband";
@@ -10,8 +11,10 @@ import Modal from "../components/Modal";
 // const appId = process.env.FB_APP_ID;
 
 function Accueil({ children }) {
+  // const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [modalType, setModalType] = useState('');
+
 
   // const [posts, setPosts] = useState([]);
 
@@ -27,6 +30,16 @@ function Accueil({ children }) {
   //     );
   //   }
   // }, []);
+  useEffect(() => {
+    // Code à exécuter au chargement de la page
+    document.querySelector('body').className = 'background1'; // Classe vide
+
+    // Fonction de nettoyage à exécuter lorsque le composant est démonté
+    return () => {
+      // Réinitialiser la classe du body
+      document.querySelector('body').className = '';
+    };
+  }, []);
 
   window.addEventListener('scroll', function() {
     const sections = document.querySelectorAll('.Accueil section');
