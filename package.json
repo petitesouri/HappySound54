@@ -2,7 +2,7 @@
   "name": "site-web-happy-sound-54",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/petitesouri/HappySound54.git",
+  "homepage": "https://petitesouri.github.io/HappySound54",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
